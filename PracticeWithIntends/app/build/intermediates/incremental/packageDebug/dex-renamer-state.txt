@@ -1,7 +1,0 @@
-#Thu Mar 30 14:26:21 CST 2017
-base.0=C\:\\Users\\raion\\Documents\\GitHub\\Android\\PracticeWithIntends\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_66372847e1dc600c013ffd93c214b4945962754b
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\raion\\Documents\\GitHub\\Android\\PracticeWithIntends\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_d03e9876b2511821ff9bce3c62620852159d937f\\classes.dex
-base.1=C\:\\Users\\raion\\Documents\\GitHub\\Android\\PracticeWithIntends\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_d03e9876b2511821ff9bce3c62620852159d937f
-file.0=C\:\\Users\\raion\\Documents\\GitHub\\Android\\PracticeWithIntends\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_66372847e1dc600c013ffd93c214b4945962754b\\classes.dex
