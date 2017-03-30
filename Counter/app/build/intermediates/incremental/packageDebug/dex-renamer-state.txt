@@ -1,0 +1,7 @@
+#Thu Mar 30 14:42:34 CST 2017
+base.0=C\:\\Users\\raion\\Documents\\GitHub\\Android\\Counter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_7349a7267a5ed1654bc045274fde25d61ac0a6d3
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\raion\\Documents\\GitHub\\Android\\Counter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_24b4bf6a01ab624ef59bc86e35f38b1b1148185b\\classes.dex
+base.1=C\:\\Users\\raion\\Documents\\GitHub\\Android\\Counter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_24b4bf6a01ab624ef59bc86e35f38b1b1148185b
+file.0=C\:\\Users\\raion\\Documents\\GitHub\\Android\\Counter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_7349a7267a5ed1654bc045274fde25d61ac0a6d3\\classes.dex

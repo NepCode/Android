@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.raion.counter.MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="bottom|center_horizontal">
+
+        <Button
+            android:text="RESET"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonResetCounter"
+            android:layout_marginBottom="9dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="2220" />
+
+        <EditText
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_above="@+id/buttonResetCounter"
+            android:layout_marginRight="9dp"
+            android:layout_marginEnd="9dp"
+            android:id="@+id/editTextNumberToReset"
+            android:hint="0"
+            android:inputType="numberSigned"
+            android:cursorVisible="false"
+            android:gravity="center_horizontal" />
+
+        <CheckBox
+            android:text="Contar Negativos?"
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/buttonResetCounter"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/checkBoxNumberNegatives"
+            android:layout_weight="3803.57" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Counter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewCounterTitle"
+            android:layout_centerHorizontal="true"
+            android:textSize="36sp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:text="0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewNumberCounter"
+            android:layout_below="@+id/textViewCounterTitle"
+            android:textSize="60sp"
+            android:layout_toLeftOf="@+id/editTextNumberToReset"
+            android:layout_toStartOf="@+id/editTextNumberToReset"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <Button
+            android:text="-"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/buttonAddCounter"
+            android:layout_alignRight="@+id/buttonAddCounter"
+            android:layout_alignEnd="@+id/buttonAddCounter"
+            android:layout_marginTop="17dp"
+            android:id="@+id/buttonSubstractCounter"
+            android:layout_weight="1"
+            android:textSize="70dp"/>
+
+        <android.support.v4.widget.Space
+            android:layout_width="50dp"
+            android:layout_height="0dp" />
+
+        <Button
+            android:text="+"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="17dp"
+            android:id="@+id/buttonAddCounter"
+            android:layout_weight="1"
+            android:textSize="70dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\raion\\Documents\\Projects\\Android\\Counter\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\raion\\Documents\\Projects\\Android\\Counter\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\raion\\Documents\\GitHub\\Android\\Counter\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\raion\\Documents\\GitHub\\Android\\Counter\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    }
+]
